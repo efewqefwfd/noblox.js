@@ -1168,7 +1168,9 @@ type BadgeUniverse = {
     rootPlaceId: number;
 }
 
-//
+/**
+ * @typedef
+*/
 type PlayerBadges = {
     id: number;
     name: string;
@@ -1183,7 +1185,6 @@ type PlayerBadges = {
     created: Date;
     updated: Date;
 }
-//
 
 /**
  * @typedef
